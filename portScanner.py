@@ -10,12 +10,12 @@ else:
     print("Command Syntax: python3 PortScanner.py <ip>")
 time= str(datetime.now())
 # banner
-print("X" * 50)
-print("X                                                X")
-print(f"X   Scanning {target} for open port             X")
-print(f"X   Time started: {time}     X")
-print("X                                                X")
-print("X" * 50)
+print("X" * 70)
+print(" " * 70)
+print(f"   Scanning {target} for open port")
+print(f"   Time started: {time}")
+print(" " * 70)
+print("X" * 70)
 
 
 
